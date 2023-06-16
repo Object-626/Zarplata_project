@@ -9,5 +9,7 @@ user = Table(
     Column('username', String, primary_key=False),
     Column('email', String, primary_key=False),
     Column('hashpassword', String, primary_key=False),
+    Column('Zarplata', Integer, primary_key=False),
+    Column('data_p',String, primary_key=False)
 
 )
